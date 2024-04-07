@@ -1,0 +1,101 @@
+.topnav {
+  background-color: rgb(230,230,230);
+  overflow: hidden;
+  border:solid;
+  border-color:rgb(60, 97, 56);
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 48px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight:bold;
+}
+
+.active {
+    background-color:rgb(60,97,56);
+}
+
+body{
+    font-family:Garamond, serif;
+    background-color:white;
+}
+
+#header {
+    font-size:40px;
+    float:left;
+    text-align:left;
+    padding: 0px 16px;
+    color:rgb(60, 97, 56);
+}
+
+.pic {
+    height:40px;
+    width:40px;
+}
+
+h1 {
+    text-align:center;
+}
+
+.logo {
+    height:75px;
+    width:150px;
+}
+
+#green {
+    color: rgb(60, 97, 56);
+}
+
+h2 {
+    text-align:center;
+}
+
+hr {
+background-color: rgb(60, 97, 56);
+    height: 4px; 
+    border: none;;
+}
+
+p {
+    color:black;
+    text-align:center;
+    padding: 35px 16px;
+    font-weight:bold;
+}
+
+.bottomnav {
+    background-color: rgb(230, 230, 230);
+    float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  overflow: hidden;
+  width:100%;
+  border-top: 3px solid rgb(60, 97, 56);
+}
+
+.topnav a:hover {
+  background-color: rgba(60, 97, 56, 0.5);
+  color: black;
+}
+
+.info {
+    border:solid;
+    border-color:rgb(60, 97, 56);
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:white;
+}
+
+.form {
+    border:3px solid rgb(60, 97, 56);
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+    background-color:white;
+}
